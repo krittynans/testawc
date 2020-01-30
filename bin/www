@@ -21,8 +21,8 @@ app.set('port', port);
  * Create HTTP server.
  */
 const options = {
-  key: fs.readFileSync('../inv-dev.robodev.co.key'),
-  cert: fs.readFileSync('../inv-dev.robodev.co.cert')
+  key: fs.readFileSync('./robodev.key'),
+  cert: fs.readFileSync('./robodev.cert')
 };
 
 
